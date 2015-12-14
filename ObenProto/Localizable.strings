@@ -1,0 +1,19 @@
+/* 
+  en.strings
+  ObenProto
+
+  Created by Will on 4/13/15.
+  Copyright (c) 2015 FFORM. All rights reserved.
+*/
+
+"avatar_early_save" = "If you record all the phrases, your morphs will sound better. Do you still want to save now?";
+"avatar_early_cancel" = "You may return here and complete your avatar at any time.";
+"avatar_ready_to_save" = "No more phrases. You may re-record and playback any phrases or press 'Save Avatar' when you are ready";
+
+"avatar_rec_failed" = "Couldn't process recording. Make sure you say the whole phrase before stopping";
+"avatar_process_failed" = "There was an error processing your avatar. Please try again.";
+
+"example_download_fail" = "The example sentence could not be loaded.";
+
+#Old
+"avatar_info_button" = "You must record at least 3 lines to save your avatar. Recording all lines will create a more accurate morph.";

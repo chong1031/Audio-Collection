@@ -1,0 +1,25 @@
+.DS_Store
+composer.lock
+bower_components
+node_modules
+/.sass-cache/
+Podfile.lock
+Pods
+/Target Support Files/
+.Trashes
+*.swp
+*.lock
+*~.nib
+DerivedData/
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+xcuserdata
+source
+api/stream.wav

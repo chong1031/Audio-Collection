@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1600944B1B1676340042192A /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1600944A1B1676340042192A /* Socket.swift */; };
+		160D6D361AA2A5DF00188EFB /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160D6D351AA2A5DF00188EFB /* Preferences.swift */; };
+		161FE9701ADE28AF005E6A63 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 161FE96F1ADE28AF005E6A63 /* Localizable.strings */; };
+		161FE9731ADE2994005E6A63 /* UITabBarController+HideTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161FE9721ADE2994005E6A63 /* UITabBarController+HideTabBar.swift */; };
+		163CFD3A1ADDEC020034C103 /* BorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163CFD391ADDEC020034C103 /* BorderedButton.swift */; };
+		1641C7351B06A54F008F83AC /* LineRecordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1641C7341B06A54F008F83AC /* LineRecordCell.swift */; };
+		1642514E1A97B591004A483A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1642514D1A97B591004A483A /* AppDelegate.swift */; };
+		164251531A97B591004A483A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164251511A97B591004A483A /* Main.storyboard */; };
+		164251551A97B591004A483A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164251541A97B591004A483A /* Images.xcassets */; };
+		164251581A97B591004A483A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 164251561A97B591004A483A /* LaunchScreen.xib */; };
+		1642516E1A97B6A1004A483A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1642516D1A97B6A1004A483A /* AVFoundation.framework */; };
+		164251701A97B6B0004A483A /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1642516F1A97B6B0004A483A /* AVKit.framework */; };
+		165628F61B4DA3E50097FDC2 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 165628F51B4DA3E50097FDC2 /* Settings.bundle */; };
+		165628F91B4DCE080097FDC2 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165628F81B4DCE080097FDC2 /* Keychain.swift */; };
+		1660ACD71BD9A3EE00D38A0F /* ModifyMorphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1660ACD61BD9A3EE00D38A0F /* ModifyMorphViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		167228601B069F3200606CC4 /* AvatarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1672285F1B069F3200606CC4 /* AvatarTableViewController.swift */; };
+		167228621B06A10000606CC4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167228611B06A10000606CC4 /* ProfileViewController.swift */; };
+		1684F0E81AA2A01300C14B73 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1684F0E71AA2A01300C14B73 /* LoginViewController.swift */; };
+		1693AD9A1B2F56110053AB69 /* SMAvatarList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1693AD991B2F56110053AB69 /* SMAvatarList.swift */; };
+		1693AD9C1B2F586B0053AB69 /* SMAvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1693AD9B1B2F586B0053AB69 /* SMAvatarCell.swift */; };
+		1693AD9E1B2F5BF70053AB69 /* SMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1693AD9D1B2F5BF70053AB69 /* SMViewController.swift */; };
+		1693ADA01B2F63BF0053AB69 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1693AD9F1B2F63BF0053AB69 /* Utilities.swift */; };
+		1693ADA21B2F70EA0053AB69 /* ObenProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1693ADA11B2F70EA0053AB69 /* ObenProgress.swift */; };
+		16ABDEC11B66F0D4002A78C5 /* MorphRecordingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16ABDEC01B66F0D4002A78C5 /* MorphRecordingTableViewCell.swift */; };
+		16ABDEC31B67025F002A78C5 /* MorphSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16ABDEC21B67025F002A78C5 /* MorphSettingsViewController.swift */; };
+		16C149F51A9FC5F700EBEAE4 /* ObenAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C149F41A9FC5F700EBEAE4 /* ObenAPI.swift */; };
+		16C149F71A9FCC9100EBEAE4 /* AudioControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C149F61A9FCC9100EBEAE4 /* AudioControl.swift */; };
+		16E0406F1AA0FB5700EE0127 /* ObenStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E0406E1AA0FB5700EE0127 /* ObenStyle.swift */; };
+		16E040751AA137B800EE0127 /* FFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E040741AA137B800EE0127 /* FFTabBarController.swift */; };
+		16E1790B1BCF218E0078AF14 /* JHProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E1790A1BCF218E0078AF14 /* JHProgressHUD.swift */; settings = {ASSET_TAGS = (); }; };
+		16E1790D1BCF27890078AF14 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E1790C1BCF27890078AF14 /* Constants.swift */; settings = {ASSET_TAGS = (); }; };
+		3286CBF01B49E505004C6907 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3286CBEF1B49E505004C6907 /* CoreAudio.framework */; };
+		3286CBF21B49E50C004C6907 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3286CBF11B49E50C004C6907 /* AudioToolbox.framework */; };
+		79880997063ECDBD8BCFF9CB /* Pods_ObenProto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA24837A99B9396529BF6EA7 /* Pods_ObenProto.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		160094481B1597370042192A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1600944A1B1676340042192A /* Socket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		160D6D351AA2A5DF00188EFB /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		161FE96F1ADE28AF005E6A63 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		161FE9721ADE2994005E6A63 /* UITabBarController+HideTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarController+HideTabBar.swift"; sourceTree = "<group>"; };
+		161FE9751ADF30E3005E6A63 /* Bridge.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.pch; sourceTree = "<group>"; };
+		163CFD391ADDEC020034C103 /* BorderedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderedButton.swift; sourceTree = "<group>"; };
+		1641C7341B06A54F008F83AC /* LineRecordCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineRecordCell.swift; sourceTree = "<group>"; };
+		164251481A97B591004A483A /* ObenProto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObenProto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1642514C1A97B591004A483A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1642514D1A97B591004A483A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		164251521A97B591004A483A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		164251541A97B591004A483A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		164251571A97B591004A483A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1642516D1A97B6A1004A483A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1642516F1A97B6B0004A483A /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		165628F51B4DA3E50097FDC2 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		165628F81B4DCE080097FDC2 /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Classes/Keychain.swift; sourceTree = "<group>"; };
+		1660ACD61BD9A3EE00D38A0F /* ModifyMorphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifyMorphViewController.swift; sourceTree = "<group>"; };
+		1672285F1B069F3200606CC4 /* AvatarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarTableViewController.swift; sourceTree = "<group>"; };
+		167228611B06A10000606CC4 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1684F0E71AA2A01300C14B73 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1693AD991B2F56110053AB69 /* SMAvatarList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMAvatarList.swift; sourceTree = "<group>"; };
+		1693AD9B1B2F586B0053AB69 /* SMAvatarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMAvatarCell.swift; sourceTree = "<group>"; };
+		1693AD9D1B2F5BF70053AB69 /* SMViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMViewController.swift; sourceTree = "<group>"; };
+		1693AD9F1B2F63BF0053AB69 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		1693ADA11B2F70EA0053AB69 /* ObenProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObenProgress.swift; sourceTree = "<group>"; };
+		16ABDEC01B66F0D4002A78C5 /* MorphRecordingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorphRecordingTableViewCell.swift; sourceTree = "<group>"; };
+		16ABDEC21B67025F002A78C5 /* MorphSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorphSettingsViewController.swift; sourceTree = "<group>"; };
+		16C149F41A9FC5F700EBEAE4 /* ObenAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObenAPI.swift; sourceTree = "<group>"; };
+		16C149F61A9FCC9100EBEAE4 /* AudioControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioControl.swift; sourceTree = "<group>"; };
+		16E0406E1AA0FB5700EE0127 /* ObenStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObenStyle.swift; sourceTree = "<group>"; };
+		16E040741AA137B800EE0127 /* FFTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFTabBarController.swift; sourceTree = "<group>"; };
+		16E1790A1BCF218E0078AF14 /* JHProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHProgressHUD.swift; sourceTree = "<group>"; };
+		16E1790C1BCF27890078AF14 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3286CBEF1B49E505004C6907 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		3286CBF11B49E50C004C6907 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		54BC0FA1CD0F2B13AE74DAD3 /* Pods-ObenProto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObenProto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObenProto/Pods-ObenProto.debug.xcconfig"; sourceTree = "<group>"; };
+		A079B356D8FF26F533534B17 /* Pods-ObenProto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObenProto.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObenProto/Pods-ObenProto.release.xcconfig"; sourceTree = "<group>"; };
+		DA24837A99B9396529BF6EA7 /* Pods_ObenProto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObenProto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		164251451A97B591004A483A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3286CBF01B49E505004C6907 /* CoreAudio.framework in Frameworks */,
+				3286CBF21B49E50C004C6907 /* AudioToolbox.framework in Frameworks */,
+				164251701A97B6B0004A483A /* AVKit.framework in Frameworks */,
+				1642516E1A97B6A1004A483A /* AVFoundation.framework in Frameworks */,
+				79880997063ECDBD8BCFF9CB /* Pods_ObenProto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		161FE9711ADE2972005E6A63 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				161FE9721ADE2994005E6A63 /* UITabBarController+HideTabBar.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		1641C7321B06A300008F83AC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				167228611B06A10000606CC4 /* ProfileViewController.swift */,
+				1672285F1B069F3200606CC4 /* AvatarTableViewController.swift */,
+				1641C7341B06A54F008F83AC /* LineRecordCell.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		1642513F1A97B591004A483A = {
+			isa = PBXGroup;
+			children = (
+				1642514A1A97B591004A483A /* ObenProto */,
+				164251491A97B591004A483A /* Products */,
+				28A11EF0746AF710A927A04B /* Frameworks */,
+				80E97875FF8C381D79039A2C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		164251491A97B591004A483A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				164251481A97B591004A483A /* ObenProto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1642514A1A97B591004A483A /* ObenProto */ = {
+			isa = PBXGroup;
+			children = (
+				1642514D1A97B591004A483A /* AppDelegate.swift */,
+				164251511A97B591004A483A /* Main.storyboard */,
+				161FE9711ADE2972005E6A63 /* Extensions */,
+				165628F71B4DCDF30097FDC2 /* Classes */,
+				16E0407A1AA13E2900EE0127 /* Singles */,
+				16E040791AA13E1E00EE0127 /* Views */,
+				16E040781AA13E0B00EE0127 /* ViewControllers */,
+				1642514B1A97B591004A483A /* Supporting Files */,
+				16E1790C1BCF27890078AF14 /* Constants.swift */,
+			);
+			path = ObenProto;
+			sourceTree = "<group>";
+		};
+		1642514B1A97B591004A483A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				161FE9751ADF30E3005E6A63 /* Bridge.pch */,
+				165628F51B4DA3E50097FDC2 /* Settings.bundle */,
+				161FE96F1ADE28AF005E6A63 /* Localizable.strings */,
+				164251541A97B591004A483A /* Images.xcassets */,
+				164251561A97B591004A483A /* LaunchScreen.xib */,
+				1642514C1A97B591004A483A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		165628F71B4DCDF30097FDC2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				165628F81B4DCE080097FDC2 /* Keychain.swift */,
+				1600944A1B1676340042192A /* Socket.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1693AD981B2F55F80053AB69 /* StreamMorph */ = {
+			isa = PBXGroup;
+			children = (
+				1693AD991B2F56110053AB69 /* SMAvatarList.swift */,
+				1693AD9B1B2F586B0053AB69 /* SMAvatarCell.swift */,
+				1693AD9D1B2F5BF70053AB69 /* SMViewController.swift */,
+				16ABDEC01B66F0D4002A78C5 /* MorphRecordingTableViewCell.swift */,
+				16ABDEC21B67025F002A78C5 /* MorphSettingsViewController.swift */,
+				1660ACD61BD9A3EE00D38A0F /* ModifyMorphViewController.swift */,
+			);
+			name = StreamMorph;
+			sourceTree = "<group>";
+		};
+		16E040781AA13E0B00EE0127 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				16E040741AA137B800EE0127 /* FFTabBarController.swift */,
+				1684F0E71AA2A01300C14B73 /* LoginViewController.swift */,
+				1693AD981B2F55F80053AB69 /* StreamMorph */,
+				1641C7321B06A300008F83AC /* Profile */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		16E040791AA13E1E00EE0127 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				163CFD391ADDEC020034C103 /* BorderedButton.swift */,
+				16E1790A1BCF218E0078AF14 /* JHProgressHUD.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		16E0407A1AA13E2900EE0127 /* Singles */ = {
+			isa = PBXGroup;
+			children = (
+				16C149F61A9FCC9100EBEAE4 /* AudioControl.swift */,
+				16C149F41A9FC5F700EBEAE4 /* ObenAPI.swift */,
+				16E0406E1AA0FB5700EE0127 /* ObenStyle.swift */,
+				160D6D351AA2A5DF00188EFB /* Preferences.swift */,
+				1693AD9F1B2F63BF0053AB69 /* Utilities.swift */,
+				1693ADA11B2F70EA0053AB69 /* ObenProgress.swift */,
+			);
+			name = Singles;
+			sourceTree = "<group>";
+		};
+		28A11EF0746AF710A927A04B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1642516F1A97B6B0004A483A /* AVKit.framework */,
+				1642516D1A97B6A1004A483A /* AVFoundation.framework */,
+				3286CBF11B49E50C004C6907 /* AudioToolbox.framework */,
+				3286CBEF1B49E505004C6907 /* CoreAudio.framework */,
+				160094481B1597370042192A /* CFNetwork.framework */,
+				DA24837A99B9396529BF6EA7 /* Pods_ObenProto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80E97875FF8C381D79039A2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54BC0FA1CD0F2B13AE74DAD3 /* Pods-ObenProto.debug.xcconfig */,
+				A079B356D8FF26F533534B17 /* Pods-ObenProto.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		164251471A97B591004A483A /* ObenProto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 164251671A97B591004A483A /* Build configuration list for PBXNativeTarget "ObenProto" */;
+			buildPhases = (
+				736B72695B5ADB0A553E9B2D /* Check Pods Manifest.lock */,
+				164251441A97B591004A483A /* Sources */,
+				164251451A97B591004A483A /* Frameworks */,
+				164251461A97B591004A483A /* Resources */,
+				32FA30ED1B4A1BEA00D9C4E0 /* ShellScript */,
+				1E9AE40D64F5AFF2B760C704 /* Embed Pods Frameworks */,
+				2F6A4F0BD822723BA4C6916C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObenProto;
+			productName = ObenProto;
+			productReference = 164251481A97B591004A483A /* ObenProto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		164251401A97B591004A483A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = FFORM;
+				TargetAttributes = {
+					164251471A97B591004A483A = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = Q8H5WZAY8E;
+					};
+				};
+			};
+			buildConfigurationList = 164251431A97B591004A483A /* Build configuration list for PBXProject "ObenProto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1642513F1A97B591004A483A;
+			productRefGroup = 164251491A97B591004A483A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				164251471A97B591004A483A /* ObenProto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		164251461A97B591004A483A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				161FE9701ADE28AF005E6A63 /* Localizable.strings in Resources */,
+				164251531A97B591004A483A /* Main.storyboard in Resources */,
+				164251581A97B591004A483A /* LaunchScreen.xib in Resources */,
+				165628F61B4DA3E50097FDC2 /* Settings.bundle in Resources */,
+				164251551A97B591004A483A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E9AE40D64F5AFF2B760C704 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObenProto/Pods-ObenProto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F6A4F0BD822723BA4C6916C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObenProto/Pods-ObenProto-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32FA30ED1B4A1BEA00D9C4E0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Pods/Fabric/Fabric.framework/run 291964212f8d4af289b6762c6b6f07dc1abcfbd6 bbb1e14ad9550f8ad38ce30385f2edaf576f4810bcfbf75685eaef56965f33d2";
+		};
+		736B72695B5ADB0A553E9B2D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		164251441A97B591004A483A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1693AD9C1B2F586B0053AB69 /* SMAvatarCell.swift in Sources */,
+				16ABDEC31B67025F002A78C5 /* MorphSettingsViewController.swift in Sources */,
+				16C149F71A9FCC9100EBEAE4 /* AudioControl.swift in Sources */,
+				1693ADA01B2F63BF0053AB69 /* Utilities.swift in Sources */,
+				16E1790B1BCF218E0078AF14 /* JHProgressHUD.swift in Sources */,
+				165628F91B4DCE080097FDC2 /* Keychain.swift in Sources */,
+				16E1790D1BCF27890078AF14 /* Constants.swift in Sources */,
+				163CFD3A1ADDEC020034C103 /* BorderedButton.swift in Sources */,
+				1600944B1B1676340042192A /* Socket.swift in Sources */,
+				1693AD9E1B2F5BF70053AB69 /* SMViewController.swift in Sources */,
+				16ABDEC11B66F0D4002A78C5 /* MorphRecordingTableViewCell.swift in Sources */,
+				16C149F51A9FC5F700EBEAE4 /* ObenAPI.swift in Sources */,
+				1641C7351B06A54F008F83AC /* LineRecordCell.swift in Sources */,
+				16E0406F1AA0FB5700EE0127 /* ObenStyle.swift in Sources */,
+				16E040751AA137B800EE0127 /* FFTabBarController.swift in Sources */,
+				160D6D361AA2A5DF00188EFB /* Preferences.swift in Sources */,
+				1642514E1A97B591004A483A /* AppDelegate.swift in Sources */,
+				1684F0E81AA2A01300C14B73 /* LoginViewController.swift in Sources */,
+				1693ADA21B2F70EA0053AB69 /* ObenProgress.swift in Sources */,
+				161FE9731ADE2994005E6A63 /* UITabBarController+HideTabBar.swift in Sources */,
+				1693AD9A1B2F56110053AB69 /* SMAvatarList.swift in Sources */,
+				167228621B06A10000606CC4 /* ProfileViewController.swift in Sources */,
+				167228601B069F3200606CC4 /* AvatarTableViewController.swift in Sources */,
+				1660ACD71BD9A3EE00D38A0F /* ModifyMorphViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		164251511A97B591004A483A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				164251521A97B591004A483A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		164251561A97B591004A483A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				164251571A97B591004A483A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		164251651A97B591004A483A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		164251661A97B591004A483A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		164251681A97B591004A483A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54BC0FA1CD0F2B13AE74DAD3 /* Pods-ObenProto.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ObenProto/Bridge.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "COCOAPODS=1";
+				INFOPLIST_FILE = ObenProto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_NAME:rfc1034identifier).fform.com";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "be341e79-2cd3-4a2c-8e6d-d73fc3e53a84";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ObenProto/Bridge.pch";
+			};
+			name = Debug;
+		};
+		164251691A97B591004A483A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A079B356D8FF26F533534B17 /* Pods-ObenProto.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: FFORM LLC (Q8H5WZAY8E)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ObenProto/Bridge.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "COCOAPODS=1";
+				INFOPLIST_FILE = ObenProto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_NAME:rfc1034identifier).fform.com";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "daeee63c-65ec-44a8-94d7-30b16d5c044d";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ObenProto/Bridge.pch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		164251431A97B591004A483A /* Build configuration list for PBXProject "ObenProto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				164251651A97B591004A483A /* Debug */,
+				164251661A97B591004A483A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		164251671A97B591004A483A /* Build configuration list for PBXNativeTarget "ObenProto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				164251681A97B591004A483A /* Debug */,
+				164251691A97B591004A483A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 164251401A97B591004A483A /* Project object */;
+}
